@@ -1,0 +1,173 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of misra-suppressions1-test.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are addons\test\misra-suppressions1-test.c, addons\test\path1\misra-suppressions1-test.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of misra-suppressions2-test.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are addons\test\misra-suppressions2-test.c, addons\test\path1\misra-suppressions2-test.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are cli\main.cpp, gui\main.cpp, oss-fuzz\main.cpp, tools\triage\main.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are gui\mainwindow.cpp, tools\triage\mainwindow.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of foo1.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are gui\test\data\files\dir1\foo1.cpp, gui\test\data\files\dir2\foo1.cpp, gui\test\data\files\foo1.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of bad.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are samples\arrayindexoutofbounds\bad.c, samples\assignmentaddresstointeger\bad.c, samples\autovariables\bad.c, samples\bufferaccessoutofbounds\bad.c, samples\memleak\bad.c, samples\outofbounds\bad.c, samples\resourceleak\bad.c, samples\syntaxerror\bad.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of good.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are samples\arrayindexoutofbounds\good.c, samples\assignmentaddresstointeger\good.c, samples\autovariables\good.c, samples\bufferaccessoutofbounds\good.c, samples\memleak\good.c, samples\outofbounds\good.c, samples\resourceleak\good.c, samples\syntaxerror\good.c.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of 1.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are test\cli\proj-inline-suppress\1.c, test\cli\proj-suppress-syntaxerror\1.c.
+  times.c
+tools\times.c(8): warning C4018: “<”: 有符号/无符号不匹配
+tools\times.c(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+tools\times.c(28): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+tools\times.c(34): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  file1.c
+  wrong7.c
+test\testsuites\duma\wrong7.c(6): warning C4013: “malloc”未定义；假设外部返回 int
+test\testsuites\duma\wrong7.c(12): warning C4013: “free”未定义；假设外部返回 int
+  wrong6.c
+test\testsuites\duma\wrong6.c(12): warning C4101: “b”: 未引用的局部变量
+  wrong3.c
+test\testsuites\duma\wrong3.c(6): warning C4013: “malloc”未定义；假设外部返回 int
+test\testsuites\duma\wrong3.c(11): warning C4013: “free”未定义；假设外部返回 int
+  wrong1.c
+test\testsuites\duma\wrong1.c(6): warning C4013: “malloc”未定义；假设外部返回 int
+test\testsuites\duma\wrong1.c(8): warning C4013: “free”未定义；假设外部返回 int
+  leak2.c
+test\testsuites\duma\leak2.c(7): warning C4013: “malloc”未定义；假设外部返回 int
+  leak1.c
+test\testsuites\duma\leak1.c(7): warning C4013: “malloc”未定义；假设外部返回 int
+  outofbound.c
+test\testsuites\clang\outofbound.c(7): error C2143: 语法错误 : 缺少“)”(在“sizeof”的前面)
+test\testsuites\clang\outofbound.c(7): error C2143: 语法错误 : 缺少“{”(在“sizeof”的前面)
+test\testsuites\clang\outofbound.c(7): error C2059: 语法错误:“sizeof”
+test\testsuites\clang\outofbound.c(64): error C2057: 应输入常量表达式
+test\testsuites\clang\outofbound.c(64): error C2466: 不能分配常量大小为 0 的数组
+test\testsuites\clang\outofbound.c(64): error C2133: “x”: 未知的大小
+test\testsuites\clang\outofbound.c(72): warning C4013: “__builtin_alloca”未定义；假设外部返回 int
+test\testsuites\clang\outofbound.c(72): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+  ub.c
+test\synthetic\ub.c(4): error C2124: 被零除或对零求模
+test\synthetic\ub.c(6): error C2057: 应输入常量表达式
+test\synthetic\ub.c(6): error C2466: 不能分配常量大小为 0 的数组
+test\synthetic\ub.c(6): error C2133: “buf”: 未知的大小
+test\synthetic\ub.c(10): warning C4047: “return”:“unsigned char”与“int *”的间接级别不同
+test\synthetic\ub.c(13): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+  functions.c
+  data.c
+  controlflow.c
+  b.c
+test\cli\proj2\b\b.c(1): error C2099: 初始值设定项不是常量
+  a.c
+test\cli\proj2\a\a.c(1): error C2099: 初始值设定项不是常量
+  3.c
+  2.c
+  1.c
+test\cli\proj-suppress-syntaxerror\1.c(6): error C2061: 语法错误: 标识符“G_UNLIKELY”
+  1.c
+test\cli\proj-inline-suppress\1.c(1): fatal error C1083: 无法打开包括文件: “1.h”: No such file or directory
+  main.c
+test\cli\helloworld\main.c(5): error C2065: “x”: 未声明的标识符
+  正在生成代码...
+c:\users\xixie\downloads\cppcheck-1.88\test\testsuites\duma\wrong3.c(16): warning C4700: 使用了未初始化的局部变量“pJ”
+  正在编译...
+  unmatchedSuppressionTest.c
+  std.c
+test\cfg\std.c(13): fatal error C1083: 无法打开包括文件: “tgmath.h”: No such file or directory
+  sqlite3.c
+test\cfg\sqlite3.c(10): fatal error C1083: 无法打开包括文件: “sqlite3.h”: No such file or directory
+  posix.c
+test\cfg\posix.c(12): fatal error C1083: 无法打开包括文件: “dirent.h”: No such file or directory
+  gtk.c
+test\cfg\gtk.c(10): fatal error C1083: 无法打开包括文件: “gtk/gtk.h”: No such file or directory
+  gnu.c
+test\cfg\gnu.c(15): fatal error C1083: 无法打开包括文件: “sys/epoll.h”: No such file or directory
+  bsd.c
+test\cfg\bsd.c(20): warning C4013: “strlcat”未定义；假设外部返回 int
+test\cfg\bsd.c(36): warning C4013: “arc4random_buf”未定义；假设外部返回 int
+test\cfg\bsd.c(44): warning C4013: “arc4random”未定义；假设外部返回 int
+test\cfg\bsd.c(46): warning C4013: “arc4random_uniform”未定义；假设外部返回 int
+  good.c
+  bad.c
+samples\syntaxerror\bad.c(6): fatal error C1075: 与左侧的 大括号“{”(位于“samples\syntaxerror\bad.c(2)”)匹配之前遇到文件结束
+  good.c
+samples\resourceleak\good.c(4): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+  bad.c
+samples\resourceleak\bad.c(4): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+  good.c
+samples\outofbounds\good.c(5): warning C4013: “snprintf”未定义；假设外部返回 int
+  bad.c
+samples\outofbounds\bad.c(5): warning C4013: “strcpy”未定义；假设外部返回 int
+  good.c
+  bad.c
+  good.c
+  bad.c
+  good.c
+  bad.c
+  good.c
+  正在生成代码...
+c:\users\xixie\downloads\cppcheck-1.88\test\cfg\bsd.c(20): warning C4700: 使用了未初始化的局部变量“n1”
+c:\users\xixie\downloads\cppcheck-1.88\test\cfg\bsd.c(20): warning C4700: 使用了未初始化的局部变量“s”
+c:\users\xixie\downloads\cppcheck-1.88\test\cfg\bsd.c(20): warning C4700: 使用了未初始化的局部变量“ct”
+c:\users\xixie\downloads\cppcheck-1.88\test\cfg\bsd.c(26): warning C4700: 使用了未初始化的局部变量“n2”
+c:\users\xixie\downloads\cppcheck-1.88\test\cfg\bsd.c(68): warning C4700: 使用了未初始化的局部变量“uint32Uninit”
+  正在编译...
+  bad.c
+samples\assignmentaddresstointeger\bad.c(3): warning C4047: “初始化”:“int”与“int *”的间接级别不同
+  good.c
+  bad.c
+  foo4.c
+gui\test\data\files\foo4.c(1): error C2061: 语法错误: 标识符“test”
+gui\test\data\files\foo4.c(1): error C2059: 语法错误:“;”
+gui\test\data\files\foo4.c(1): error C2143: 语法错误 : 缺少“{”(在“.”的前面)
+gui\test\data\files\foo4.c(1): error C2059: 语法错误:“.”
+  cve-2018-6836.c
+  cve-2018-5334.c
+  cve-2018-11360.c
+  feature_tests.c
+  CMakeCCompilerId.c
+  y2038-test-4-good.c
+addons\y2038\test\y2038-test-4-good.c(14): warning C4047: “函数”:“timespec *”与“timespec **”的间接级别不同
+addons\y2038\test\y2038-test-4-good.c(14): warning C4024: “clock_gettime”: 形参和实参 2 的类型不同
+  y2038-test-3-no-use-time-bits.c
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(12): error C2065: “clockid_t”: 未声明的标识符
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(12): error C2146: 语法错误: 缺少“;”(在标识符“my_clk_id”的前面)
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(12): error C2065: “my_clk_id”: 未声明的标识符
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(12): error C2065: “CLOCK_REALTIME”: 未声明的标识符
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(15): warning C4013: “clock_gettime”未定义；假设外部返回 int
+addons\y2038\test\y2038-test-3-no-use-time-bits.c(15): error C2065: “my_clk_id”: 未声明的标识符
+  y2038-test-2-no-time-bits.c
+addons\y2038\test\y2038-test-2-no-time-bits.c(15): warning C4047: “函数”:“timespec *”与“timespec **”的间接级别不同
+addons\y2038\test\y2038-test-2-no-time-bits.c(15): warning C4024: “clock_gettime”: 形参和实参 2 的类型不同
+  y2038-test-1-bad-time-bits.c
+addons\y2038\test\y2038-test-1-bad-time-bits.c(17): warning C4047: “函数”:“timespec *”与“timespec **”的间接级别不同
+addons\y2038\test\y2038-test-1-bad-time-bits.c(17): warning C4024: “clock_gettime”: 形参和实参 2 的类型不同
+  misra-suppressions2-test.c
+  misra-suppressions1-test.c
+addons\test\path1\misra-suppressions1-test.c(16): warning C4013: “misra_5_2_func1”未定义；假设外部返回 int
+addons\test\path1\misra-suppressions1-test.c(24): warning C4013: “misra_5_2_func3”未定义；假设外部返回 int
+addons\test\path1\misra-suppressions1-test.c(30): warning C4013: “misra_5_2_func2”未定义；假设外部返回 int
+addons\test\path1\misra-suppressions1-test.c(27): warning C4101: “misra_5_2_var_hides_var_1____31y”: 未引用的局部变量
+addons\test\path1\misra-suppressions1-test.c(26): warning C4101: “misra_5_2_var_hides_var_1____31x”: 未引用的局部变量
+  naming_test.c
+addons\test\naming_test.c(5): error C2081: “bool”: 形参表中的名称非法
+  namingng_test.c
+addons\test\namingng_test.c(11): error C2082: 形参“a”的重定义
+  misra-test.c
+addons\test\misra-test.c(4): fatal error C1083: 无法打开包括文件: “path\file.h”: No such file or directory
+  misra-suppressions2-test.c
+  misra-suppressions1-test.c
+addons\test\misra-suppressions1-test.c(16): warning C4013: “misra_5_2_func1”未定义；假设外部返回 int
+addons\test\misra-suppressions1-test.c(24): warning C4013: “misra_5_2_func3”未定义；假设外部返回 int
+addons\test\misra-suppressions1-test.c(30): warning C4013: “misra_5_2_func2”未定义；假设外部返回 int
+addons\test\misra-suppressions1-test.c(27): warning C4101: “misra_5_2_var_hides_var_1____31y”: 未引用的局部变量
+addons\test\misra-suppressions1-test.c(26): warning C4101: “misra_5_2_var_hides_var_1____31x”: 未引用的局部变量
+  正在生成代码...
+  正在编译...
+  cert-test.c
+addons\test\cert-test.c(25): warning C4090: “函数”: 不同的“const”限定符
+addons\test\cert-test.c(37): warning C4013: “memcmp”未定义；假设外部返回 int
+addons\test\cert-test.c(46): error C2065: “x”: 未声明的标识符
+addons\test\cert-test.c(46): error C2065: “y”: 未声明的标识符
+addons\test\cert-test.c(46): error C2065: “z”: 未声明的标识符
+addons\test\cert-test.c(59): warning C4013: “rand”未定义；假设外部返回 int
+addons\test\cert-test.c(70): warning C4013: “printf”未定义；假设外部返回 int
+addons\test\cert-test.c(78): warning C4013: “malloc”未定义；假设外部返回 int
+addons\test\cert-test.c(81): warning C4013: “strncpy”未定义；假设外部返回 int
+addons\test\cert-test.c(100): warning C4013: “strcat”未定义；假设外部返回 int
+addons\test\cert-test.c(103): warning C4013: “strcpy”未定义；假设外部返回 int
+  正在生成代码...

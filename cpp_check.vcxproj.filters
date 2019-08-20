@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addons\test\cert-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\misc-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\misra-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\cert-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\misra-suppressions1-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\misra-suppressions2-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\misra-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\namingng_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\naming_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\path1\misra-suppressions1-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\test\path1\misra-suppressions2-test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\y2038\test\y2038-test-1-bad-time-bits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\y2038\test\y2038-test-2-no-time-bits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\y2038\test\y2038-test-3-no-use-time-bits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons\y2038\test\y2038-test-4-good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cli\cmdlineparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cli\cppcheckexecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cli\filelister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cli\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cli\threadexecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake-build-debug\cmakefiles\feature_tests.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake-build-debug\cmakefiles\feature_tests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake-build-debug\cmakefiles\3.13.2\compileridc\CMakeCCompilerId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmake-build-debug\cmakefiles\3.13.2\compileridcxx\CMakeCXXCompilerId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cve-test-suite\cve-2018-1000618.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cve-test-suite\cve-2018-11360.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cve-test-suite\cve-2018-5334.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cve-test-suite\cve-2018-6836.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="democlient\democlient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\simplecpp\simplecpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="externals\tinyxml\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\applicationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\applicationlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\checkstatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\checkthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\codeeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\codeeditorstyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\codeeditstylecontrols.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\codeeditstyledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\cppchecklibrarydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\csvreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\erroritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\filelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\fileviewdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\libraryaddfunctiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\librarydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\libraryeditargdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\newsuppressiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\platforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\printablereport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\projectfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\projectfiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\resultstree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\resultsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\scratchpad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\showtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\statsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\threadhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\threadresult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\translationhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\txtreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\xmlreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\xmlreportv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\benchmark\simple\benchmarksimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\benchmark\simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\foo1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\foo2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\foo3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\foo4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\dir1\foo1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\dir1\dir11\foo11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\data\files\dir2\foo1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\filelist\testfilelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\projectfile\testprojectfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\translationhandler\testtranslationhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test\xmlreportv2\testxmlreportv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="htmlreport\example.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\analyzerinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\astutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\check64bit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkassert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkautovariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkbool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkboost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkbufferoverrun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkcondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkexceptionsafety.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkinternal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkleakautovar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkmemoryleak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checknullpointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkother.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkpostfixoperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checksizeof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkstl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checktype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkuninitvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkunusedfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkunusedvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\checkvaarg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cppcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ctu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\errorlogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\importproject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\pathmatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\preprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\suppressions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\symboldatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\templatesimplifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\tokenize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\tokenlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\valueflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oss-fuzz\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oss-fuzz\translate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oss-fuzz\type2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\arrayindexoutofbounds\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\arrayindexoutofbounds\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\assignmentaddresstointeger\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\assignmentaddresstointeger\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\autovariables\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\autovariables\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\bufferaccessoutofbounds\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\bufferaccessoutofbounds\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\erase\bad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\erase\good.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\memleak\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\memleak\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\outofbounds\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\outofbounds\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\resourceleak\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\resourceleak\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syntaxerror\bad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syntaxerror\good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test64bit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testassert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testastutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testautovariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testbool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testboost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testbufferoverrun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testcharvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testcmdlineparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testcondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testconstructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testcppcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testerrorlogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testexceptionsafety.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testfilelister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testgarbage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testimportproject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testincompletestatement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testinternal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testleakautovar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testlibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testmathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testmemleak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testnullpointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testother.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testpath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testpathmatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testplatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testpostfixoperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testpreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testrunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsamples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsimplifytemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsimplifytokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsimplifytypedef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsimplifyusing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsizeof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\teststl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\teststring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuppressions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsymboldatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testthreadexecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testtoken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testtokenize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testtokenlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testtype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testuninitvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testunusedfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testunusedprivfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testunusedvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testvaarg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testvalueflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testvarid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\boost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\qt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\std.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\wxwidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\bsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\gnu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\gtk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\posix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\std.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cfg\unmatchedSuppressionTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\helloworld\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj-inline-suppress\1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj-suppress-syntaxerror\1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj-suppress-syntaxerror\2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj-suppress-syntaxerror\3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj2\a\a.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\cli\proj2\b\b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\synthetic\controlflow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\synthetic\data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\synthetic\functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\synthetic\ub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\clang\outofbound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\leak1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\leak2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\leak1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\leak2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testsuites\duma\wrong7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_xi\file1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\clang-ast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\dmake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\generate_cfg_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\times.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\triage\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\triage\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addons\y2038\test\y2038-inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cli\cmdlineparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cli\cppcheckexecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cli\filelister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cli\threadexecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\picojson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\simplecpp\simplecpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externals\tinyxml\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\applicationdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\applicationlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\checkstatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\checkthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\codeeditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\codeeditorstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\codeeditstylecontrols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\codeeditstyledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\cppchecklibrarydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\csvreport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\erroritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\filelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\fileviewdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\libraryaddfunctiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\librarydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\libraryeditargdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\newsuppressiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\platforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\printablereport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\projectfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\projectfiledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\resultstree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\resultsview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\scratchpad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\showtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\statsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\threadhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\threadresult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\translationhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\txtreport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\xmlreport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\xmlreportv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\test\benchmark\simple\benchmarksimple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\test\filelist\testfilelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\test\projectfile\testprojectfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\test\translationhandler\testtranslationhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\test\xmlreportv2\testxmlreportv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\analyzerinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\astutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\check64bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkassert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkautovariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkbool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkboost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkbufferoverrun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkcondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkexceptionsafety.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkfunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkinternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkleakautovar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkmemoryleak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checknullpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkother.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkpostfixoperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checksizeof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkstl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checktype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkuninitvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkunusedfunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkunusedvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\checkvaarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\cppcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ctu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\errorlogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\importproject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\matchcompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\mathlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\pathmatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\preprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\standards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\suppressions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\symboldatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\templatesimplifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\tokenize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\tokenlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\valueflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oss-fuzz\type2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\redirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testsuite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\cli\proj-inline-suppress\1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\triage\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cli\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="gui\cppcheck-gui.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="lib\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cmake-build-debug\cmakefiles\feature_tests.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cmake-build-debug\cmakefiles\3.13.2\CMakeDetermineCompilerABI_C.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cmake-build-debug\cmakefiles\3.13.2\CMakeDetermineCompilerABI_CXX.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cppcheck.cppcheck" />
+    <None Include="cmake-build-debug\cli\cmakefiles\cli_objs.dir\CXX.includecache" />
+    <None Include="cmake-build-debug\cli\cmakefiles\cppcheck.dir\CXX.includecache" />
+    <None Include="cmake-build-debug\externals\simplecpp\cmakefiles\simplecpp_objs.dir\CXX.includecache" />
+    <None Include="cmake-build-debug\externals\tinyxml\cmakefiles\tinyxml_objs.dir\CXX.includecache" />
+    <None Include="cmake-build-debug\lib\cmakefiles\lib_objs.dir\CXX.includecache" />
+    <None Include="gui\gui.cppcheck" />
+    <None Include="gui\help\manual.html" />
+    <None Include="gui\test\data\projectfiles\simple.cppcheck" />
+    <None Include="gui\test\data\projectfiles\simple_ignore.cppcheck" />
+    <None Include="gui\test\data\projectfiles\simple_noroot.cppcheck" />
+    <None Include="test\cli\helloworld\helloworld.cppcheck" />
+    <None Include="test\cli\proj2\proj2.cppcheck" />
+    <None Include="test\testsuites\duma\memCheckers.html" />
+  </ItemGroup>
+</Project>
