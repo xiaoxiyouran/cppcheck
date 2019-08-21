@@ -4,21 +4,19 @@
 
 #ifndef CPPCHECK_DEFINE_H
 #define CPPCHECK_DEFINE_H
-
+#pragma once
 #include <string>
 
 // define globale variables for cppcheck
 
 // 1: 项目所在的根路径
-#define PROJECT_WORK_SOURCE_DIR "C:\\Users\\xixie\\Downloads\\cppcheck-1.88"
-#define PROJECT_CFG_SOURCE_DIR  "C:\\Users\\xixie\\Downloads\\cppcheck-1.88\\CFG"
+const static std::string PROJECT_WORK_SOURCE_DIR = "C:\\Users\\xixie\\Downloads\\cppcheck-1.88";
+const static std::string PROJECT_CFG_SOURCE_DIR  = PROJECT_WORK_SOURCE_DIR + "\\CFG";
 
-#define BASE_STD_CFG        "C:\\Users\\xixie\\Downloads\\cppcheck-1.88\\CFG\\std.cfg"
-#define BASE_WINDOWS_CFG    "C:\\Users\\xixie\\Downloads\\cppcheck-1.88\\CFG\\windows.cfg"
+const static std::string  BASE_STD_CFG = "C:\\Users\\xixie\\Downloads\\cppcheck-1.88\\CFG\\std.cfg";
+const static std::string  BASE_WINDOWS_CFG = "C:\\Users\\xixie\\Downloads\\cppcheck-1.88\\CFG\\windows.cfg";
 
-#define CLOCKS_PER_SEC ((clock_t)1000)
-#define CLOCKS_PER_MIN ((clock_t)60000)
-#define CLOCKS_PER_HOUR ((clock_t)3600000)
+
 
 
 

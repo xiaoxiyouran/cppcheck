@@ -828,12 +828,6 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
     Settings& settings = cppcheck.settings();
     _settings = &settings;
 
-//    char * pchCurFileAbsPath = GetCurFileAbsPath();     // 当前工作目录的绝对路径
-//    if(pchCurFileAbsPath == NULL)
-//    {
-//        std::cerr << "Error: get cur File abs path failed." << std::endl;
-//        return -1;
-//    }
 
 //#ifdef  _WIN32
 //    #define CFG_BASE_LOAD_PATH  SOFTWARE_VERSION##" "##HARDWARE_VERSION
@@ -846,7 +840,8 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
 //    return -1;
 //#endif
 
-    const bool std = tryLoadLibrary(settings.library, argv[0], BASE_STD_CFG);
+    std::string strStdCfgPath = PROJECT_CFG_SOURCE_DIR + "std.cfg";
+    const bool std = tryLoadLibrary(settings.library, argv[0], "std.cfg");
 
     for (const std::string &lib : settings.libraries) {
         if (!tryLoadLibrary(settings.library, argv[0], lib.c_str())) {
@@ -863,7 +858,7 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
         posix = tryLoadLibrary(settings.library, argv[0], "posix.cfg");
     bool windows = true;
     if (settings.isWindowsPlatform())
-        windows = tryLoadLibrary(settings.library, argv[0], BASE_WINDOWS_CFG);
+        windows = tryLoadLibrary(settings.library, argv[0], "windows.cfg");
 
     if (!std || !posix || !windows) {
         const std::list<ErrorLogger::ErrorMessage::FileLocation> callstack;

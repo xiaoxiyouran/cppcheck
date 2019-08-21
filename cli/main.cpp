@@ -61,7 +61,7 @@
 
 #include "cppcheckexecutor.h"
 #include <iostream>
-#include<time.h>
+#include "TimeHelper.h"
 
 #include "define.h"
 
