@@ -827,7 +827,7 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
 {
     Settings& settings = cppcheck.settings();
     _settings = &settings;
-
+    // Clion 中的 working directory
     char * pchCurFileAbsPath = GetCurFileAbsPath();     // 当前工作目录的绝对路径
     if(pchCurFileAbsPath == NULL)
     {
@@ -846,7 +846,8 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
 //    return -1;
 //#endif
 
-    const bool std = tryLoadLibrary(settings.library, argv[0], BASE_STD_CFG);
+    std::string strStdCfgPath = PROJECT_CFG_SOURCE_DIR + "std.cfg";
+    const bool std = tryLoadLibrary(settings.library, argv[0], "std.cfg");
 
     for (const std::string &lib : settings.libraries) {
         if (!tryLoadLibrary(settings.library, argv[0], lib.c_str())) {
@@ -863,7 +864,7 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
         posix = tryLoadLibrary(settings.library, argv[0], "posix.cfg");
     bool windows = true;
     if (settings.isWindowsPlatform())
-        windows = tryLoadLibrary(settings.library, argv[0], BASE_WINDOWS_CFG);
+        windows = tryLoadLibrary(settings.library, argv[0], "windows.cfg");
 
     if (!std || !posix || !windows) {
         const std::list<ErrorLogger::ErrorMessage::FileLocation> callstack;
