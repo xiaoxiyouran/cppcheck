@@ -28,7 +28,7 @@
 #include <set>
 #include <string>
 
-#include <direct.h>
+//#include <direct.h>
 
 
 
@@ -162,8 +162,8 @@ private:
     */
     int check_internal(CppCheck& cppcheck, int argc, const char* const argv[]);
 
-    // 获取当前工作目录的绝对路径
-    char * GetCurFileAbsPath();
+//    // 获取当前工作目录的绝对路径
+//    char * GetCurFileAbsPath();
 
     /**
      * Pointer to current settings; set while check() is running.

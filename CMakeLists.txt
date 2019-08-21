@@ -28,3 +28,4 @@ ADD_SUBDIRECTORY(gui)   # Graphical application
 ADD_SUBDIRECTORY(tools/triage)   # Triage tool
 
 include(cmake/printInfo.cmake REQUIRED)
+

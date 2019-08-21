@@ -803,22 +803,22 @@ int CppCheckExecutor::check_wrapper(CppCheck& cppcheck, int argc, const char* co
 #endif
 }
 
-char *CppCheckExecutor::GetCurFileAbsPath()
-{
-    char * buffer = NULL;
-    //也可以将buffer作为输出参数
-    if((buffer = getcwd(NULL, 0)) == NULL)
-    {
-        perror("getcwd error");
-    }
-    else
-    {
-        printf("%s\n", buffer);
-        return  buffer;
-//        free(buffer);
-    }
-    return  NULL;
-}
+//char *CppCheckExecutor::GetCurFileAbsPath()
+//{
+//    char * buffer = NULL;
+//    //也可以将buffer作为输出参数
+//    if((buffer = getcwd(NULL, 0)) == NULL)
+//    {
+//        perror("getcwd error");
+//    }
+//    else
+//    {
+//        printf("%s\n", buffer);
+//        return  buffer;
+////        free(buffer);
+//    }
+//    return  NULL;
+//}
 
 /*
  * That is a method which gets called from check_wrapper
@@ -828,12 +828,12 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
     Settings& settings = cppcheck.settings();
     _settings = &settings;
 
-    char * pchCurFileAbsPath = GetCurFileAbsPath();     // 当前工作目录的绝对路径
-    if(pchCurFileAbsPath == NULL)
-    {
-        std::cerr << "Error: get cur File abs path failed." << std::endl;
-        return -1;
-    }
+//    char * pchCurFileAbsPath = GetCurFileAbsPath();     // 当前工作目录的绝对路径
+//    if(pchCurFileAbsPath == NULL)
+//    {
+//        std::cerr << "Error: get cur File abs path failed." << std::endl;
+//        return -1;
+//    }
 
 //#ifdef  _WIN32
 //    #define CFG_BASE_LOAD_PATH  SOFTWARE_VERSION##" "##HARDWARE_VERSION
