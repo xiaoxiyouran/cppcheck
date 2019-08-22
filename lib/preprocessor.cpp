@@ -572,9 +572,9 @@ static bool hasErrors(const simplecpp::OutputList &outputList)
 
 void Preprocessor::loadFiles(const simplecpp::TokenList &rawtokens, std::vector<std::string> &files)
 {
-    const simplecpp::DUI dui = createDUI(mSettings, emptyString, files[0]);
+    const simplecpp::DUI dui = createDUI(mSettings, emptyString, files[0]);    // +
 
-    mTokenLists = simplecpp::load(rawtokens, files, dui, nullptr);
+    mTokenLists = simplecpp::load(rawtokens, files, dui, nullptr);              // + 加载头文件，非标准库
 }
 
 void Preprocessor::removeComments()

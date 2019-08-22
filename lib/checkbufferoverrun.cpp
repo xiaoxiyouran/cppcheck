@@ -307,7 +307,7 @@ void CheckBufferOverrun::arrayIndex()
         if (!mightBeLarger) { // TODO check arrays with dim 1 also
             const std::vector<const ValueFlow::Value *> &indexValues = getOverrunIndexValues(tok, tok->astOperand1(), dimensions, indexTokens);
             if (!indexValues.empty())
-                arrayIndexError(tok, dimensions, indexValues);
+                arrayIndexError(tok, dimensions, indexValues);  // 报错
         }
 
         // Negative index

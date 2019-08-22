@@ -195,7 +195,7 @@ int CppCheckExecutor::check(int argc, const char* const argv[])
     if (cppCheck.settings().exceptionHandling) {
         return check_wrapper(cppCheck, argc, argv);
     }
-    return check_internal(cppCheck, argc, argv);
+    return check_internal(cppCheck, argc, argv); // +
 }
 
 void CppCheckExecutor::setSettings(const Settings &settings)
@@ -840,7 +840,7 @@ int CppCheckExecutor::check_internal(CppCheck& cppcheck, int /*argc*/, const cha
 //    return -1;
 //#endif
 
-    std::string strStdCfgPath = PROJECT_CFG_SOURCE_DIR + "std.cfg";
+//    std::string strStdCfgPath = PROJECT_CFG_SOURCE_DIR + "std.cfg";
     const bool std = tryLoadLibrary(settings.library, argv[0], "std.cfg");
 
     for (const std::string &lib : settings.libraries) {

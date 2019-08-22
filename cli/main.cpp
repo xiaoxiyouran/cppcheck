@@ -99,7 +99,7 @@ int main(int argc, char* argv[])
 #ifdef NDEBUG
     try {
 #endif
-        int iRet = exec.check(argc, argv);
+        int iRet = exec.check(argc, argv); // +
 #ifdef NDEBUG
     } catch (const InternalError& e) {
         std::cout << e.errorMessage << std::endl;

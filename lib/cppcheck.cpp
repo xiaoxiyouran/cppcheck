@@ -259,7 +259,7 @@ unsigned int CppCheck::checkFile(const std::string& filename, const std::string 
 
         simplecpp::OutputList outputList;
         std::vector<std::string> files;
-        simplecpp::TokenList tokens1(fileStream, files, filename, &outputList);
+        simplecpp::TokenList tokens1(fileStream, files, filename, &outputList);   // 以xml 树的形式解析所有 token
 
         // If there is a syntax error, report it and stop
         for (const simplecpp::Output &output : outputList) {
@@ -532,7 +532,7 @@ unsigned int CppCheck::checkFile(const std::string& filename, const std::string 
                 }
 
                 // Check normal tokens
-                checkNormalTokens(mTokenizer);
+                checkNormalTokens(mTokenizer);  // ++++++ 这里面检查token
 
                 // Analyze info..
                 if (!mSettings.buildDir.empty())
@@ -720,6 +720,7 @@ void CppCheck::checkNormalTokens(const Tokenizer &tokenizer)
 {
     // call all "runChecks" in all registered Check classes
     for (Check *check : Check::instances()) {
+        std::cout << check->name() << std::endl;
         if (mSettings.terminated())
             return;
 
@@ -727,7 +728,7 @@ void CppCheck::checkNormalTokens(const Tokenizer &tokenizer)
             return;
 
         Timer timerRunChecks(check->name() + "::runChecks", mSettings.showtime, &S_timerResults);
-        check->runChecks(&tokenizer, &mSettings, this);
+        check->runChecks(&tokenizer, &mSettings, this);         // ++++ 这里面执行检查, 重载函数
     }
 
     // Analyse the tokens..

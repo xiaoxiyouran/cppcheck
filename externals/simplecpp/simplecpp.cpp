@@ -2419,7 +2419,7 @@ std::map<std::string, simplecpp::TokenList*> simplecpp::load(const simplecpp::To
         ret[filename] = tokenlist;
         filelist.push_back(tokenlist->front());
     }
-
+    // 就是为了加载头文件，遍历了所有token
     for (const Token *rawtok = rawtokens.cfront(); rawtok || !filelist.empty(); rawtok = rawtok ? rawtok->next : NULL) {
         if (rawtok == NULL) {
             rawtok = filelist.back();
@@ -2429,7 +2429,7 @@ std::map<std::string, simplecpp::TokenList*> simplecpp::load(const simplecpp::To
         if (rawtok->op != '#' || sameline(rawtok->previousSkipComments(), rawtok))
             continue;
 
-        rawtok = rawtok->nextSkipComments();
+        rawtok = rawtok->nextSkipComments();        // 跳过注释，取得下一个 token
         if (!rawtok || rawtok->str() != INCLUDE)
             continue;
 
